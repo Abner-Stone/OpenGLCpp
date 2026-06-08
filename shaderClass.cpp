@@ -98,7 +98,8 @@ void Shader::compileErrors(unsigned int shader, std::string type)
 		{
 			// Gets the info log for the program
 			glGetProgramInfoLog(shader, 1024, NULL, infoLog);
-			std::cout << "SHADER_LINKER_ERROR for: " << type << std::endl;
+			std::cerr << "SHADER_LINKER_ERROR for: " << type << std::endl;
+			std::cout << "Info Log: " << infoLog << std::endl;
 		}
 	}
 	

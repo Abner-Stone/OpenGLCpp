@@ -64,5 +64,7 @@
         "deque": "cpp",
         "iomanip": "cpp",
         "stack": "cpp"
-    }
+    },
+    "cmake.configureOnOpen": false,
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++"
 }
